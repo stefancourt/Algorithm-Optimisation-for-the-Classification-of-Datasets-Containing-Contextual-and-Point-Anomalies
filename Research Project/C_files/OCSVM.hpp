@@ -2,6 +2,7 @@
 #define OCSVM_HPP
 
 #include <vector>
+#include <numeric>
 #include <cmath>
 #include <stdexcept>
 #include <iostream>

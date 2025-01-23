@@ -14,3 +14,6 @@ python -m ipykernel install --name=venv
 
 REM Install dependencies within the virtual environment
 pip install -r requirements.txt
+
+REM Install C dependencies to allow python file to run
+call C_files/ocsvm_exec.bat
