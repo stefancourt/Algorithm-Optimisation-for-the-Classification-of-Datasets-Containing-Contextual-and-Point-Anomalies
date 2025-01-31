@@ -16,6 +16,7 @@ This software contains anomaly generation where anomalies are created within a d
 ## 📦 Requirements
 The following libraries and packages are required to run this application. Ensure that you have the correct versions installed in your development environment.
 - [python](https://www.python.org) 3.11.9
+- [cmake](https://cmake.org/download/) 3.31.5
 - [numpy](https://numpy.org) 2.2.1
 - [pandas](https://pandas.pydata.org/docs/) 2.2.3
 - [scikit-learn](https://scikit-learn.org/stable/) 1.6.1
@@ -23,22 +24,27 @@ The following libraries and packages are required to run this application. Ensur
 - [cvxopt](https://cvxopt.org) 1.3.2
 - [nbformat](https://nbformat.readthedocs.io/en/latest/) 5.10.4
 - [seaborn](https://seaborn.pydata.org) 0.13.2
+- [pybind11](https://pybind11.readthedocs.io/en/stable/installing.html) 2.13.6
 
 
 ## 🌱 Configuring the Virtual Environment
-### On Mac
-1. Make sure that [Python 3.11.x](https://www.python.org/downloads/macos/) is installed on the device
-2. Navigate to the **Research Project Code/**.
-3. Run the following commands to activate the virtual environment:
+1. Make sure that [Python 3.11.9](https://www.python.org/downloads/macos/) is installed on the system
+2. Ensure [cmake](https://cmake.org/download/) is installed on the system
+3. Navigate to the **Research Project Code/**.=
+4. Run the following commands to activate the virtual environment and install all dependencies:
 
+### On Mac
 ```bash
-chmod +x commands.sh
-./commands.sh
+chmod +x mac-commands.sh
+./mac-commands.sh
 ```
 
 ### On Windows
-
+```bash
+win-commands.bat
+```
 ## 🚀 Running the Application
+If all steps have been adhered to then all notebooks should be runnable with the **main.ipynb** notebook containing all main functions utilised within the applications along with graphs and scores.
 
 ## 🌲 Project Structure
 Any (item) means multiple files of type *item*
