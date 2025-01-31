@@ -14,3 +14,7 @@ python -m ipykernel install --name=venv
 
 # Install dependencies within the virtual environment
 pip install -r requirements.txt
+
+# Install C dependencies to allow python file to run
+chmod +x C_files/ocsvm_exec.sh
+./C_files/ocsvm_exec
