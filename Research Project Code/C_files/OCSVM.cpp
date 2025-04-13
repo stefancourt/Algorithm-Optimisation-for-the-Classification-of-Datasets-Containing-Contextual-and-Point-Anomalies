@@ -53,7 +53,6 @@ void OCSVM::fit(const std::vector<std::vector<double>>& X) {
     // Initialize alphas
     alphas.assign(n_samples, 0.0);
 
-    // Simplified dual optimization loop (replace with actual optimization)
     for (size_t i = 0; i < n_samples; ++i) {
         for (size_t j = 0; j < n_samples; ++j) {
             alphas[i] += kernel(X[i], X[j]);
