@@ -46,12 +46,20 @@ win-commands.bat
 ## 🚀 Running the Application
 The below step is not needed as the final code submission for ECMM428 Individual Research Project contains the build directory along with the cmake file already created within it.
 
-To make sure the cmake files are installed correctly it is needed to input your absolute path into the placeholders where it states "Enter Your Absolute Path Here" within either the *ocsvm_exec.bat* file if on windows of the *ocsvm_exec.sh* file if on UNIX. The following can then be run 
+To make sure the cmake files are installed correctly it is needed to input your absolute path into the placeholders where it states "Enter Your Absolute Path Here" within either the *ocsvm_exec.bat* file if on windows of the *ocsvm_exec.sh* file if on UNIX. The following can then be run from within the **Research Project Code/** folder to install the cmake file correctly.
+
+### On Mac
 ```bash
 chmod +x C_files/ocsvm_exec.sh
 
 ./C_files/ocsvm_exec.sh
 ```
+
+### On Windows
+```bash
+call C_files/ocsvm_exec.bat
+```
+
 If all steps have been adhered to then all notebooks should be runnable with the **main.ipynb** notebook containing all main functions utilised within the applications along with graphs and scores.
 
 ## 🌲 Project Structure
