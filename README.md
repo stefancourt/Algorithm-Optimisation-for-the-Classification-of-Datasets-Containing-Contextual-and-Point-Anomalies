@@ -44,7 +44,7 @@ chmod +x mac-commands.sh
 win-commands.bat
 ```
 ## 🚀 Running the Application
-The below step is not needed when using a UNIX based operating system as the final code submission for ECMM428 Individual Research Project contains the build directory along with the cmake file already created within it that has been created using a UNIX based system, however if using a Windows system to run the program the instructions below must be followed.
+The below step is not needed when using a UNIX based operating system as the final code submission for ECMM428 Individual Research Project contains the build directory along with the cmake file already created within it which has been created using a UNIX based system, however if using a Windows system to run the program the instructions below must be followed.
 
 To make sure the cmake files are installed correctly it is needed to input your absolute path into the placeholders where it states "Enter Your Absolute Path Here", within either the *ocsvm_exec.bat* file if on Windows of the *ocsvm_exec.sh* file if on UNIX. This needs to point to the locations where your cmake file is for *cmake*, pybind file is for *-DCMAKE_PREFIX_PATH* and python executable file are for *-DPython_EXECUTABLE*. The following can then be run from within the **Research Project Code/** folder to install the cmake file correctly.
 
