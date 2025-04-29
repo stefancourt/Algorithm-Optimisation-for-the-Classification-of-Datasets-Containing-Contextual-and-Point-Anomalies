@@ -16,4 +16,4 @@ REM Install dependencies within the virtual environment
 pip3 install -r requirements.txt
 
 REM Install C dependencies to allow python file to run
-call C_files/ocsvm_exec.bat
+REM call C_files/ocsvm_exec.bat

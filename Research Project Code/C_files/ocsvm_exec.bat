@@ -10,9 +10,9 @@ mkdir build
 cd build
 
 rem Run CMake with the appropriate paths and options
-cmake "C:/Users/Stefan/Documents/GitHub/Algorithm-Optimisation-for-the-Classification-of-Datasets-Containing-Contextual-and-Point-Anomalies/Research Project Code/C_files" ^
-  -DCMAKE_PREFIX_PATH="C:\Users\Stefan\Documents\GitHub\Algorithm-Optimisation-for-the-Classification-of-Datasets-Containing-Contextual-and-Point-Anomalies\Research Project Code\venv\Lib\site-packages\pybind11" ^
-  -DPython_EXECUTABLE="C:\Users\Stefan\Documents\GitHub\Algorithm-Optimisation-for-the-Classification-of-Datasets-Containing-Contextual-and-Point-Anomalies\Research Project Code\venv\Scripts\python.exe"
+cmake "Enter Your Absolute Path Here" ^
+  -DCMAKE_PREFIX_PATH="Enter Your Absolute Path Here" ^
+  -DPython_EXECUTABLE="Enter Your Absolute Path Here"
 
 rem Build the project
 cmake --build .

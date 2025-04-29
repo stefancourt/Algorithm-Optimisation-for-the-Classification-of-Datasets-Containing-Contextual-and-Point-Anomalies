@@ -16,6 +16,6 @@ python3 -m ipykernel install --user --name=venv
 pip3 install -r requirements.txt
 
 # Install C dependencies to allow python file to run
-chmod +x C_files/ocsvm_exec.sh
+# chmod +x C_files/ocsvm_exec.sh
 
-./C_files/ocsvm_exec.sh
+# ./C_files/ocsvm_exec.sh
